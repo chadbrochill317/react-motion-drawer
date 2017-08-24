@@ -37,12 +37,12 @@
   },
   "homepage": "https://github.com/stoeffel/react-motion-drawer",
   "devDependencies": {
-    "babel-cli": "^6.23.0",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.23.1",
     "babel-eslint": "^7.1.1",
     "babel-loader": "^6.3.2",
-    "babel-preset-env": "^1.1.10",
-    "babel-preset-react": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
     "eslint": "^3.6.3",
     "eslint-plugin-react": "^3.6.3",
     "file-loader": "^0.10.1",
@@ -56,7 +56,7 @@
   },
   "dependencies": {
     "1-liners": "^0.4.0",
-    "babel-preset-stage-0": "^6.22.0",
+    "babel-preset-stage-0": "^6.24.1",
     "react-hammerjs": "^0.5.0",
     "react-motion": "^0.4.7"
   }
