@@ -1,0 +1,10 @@
+example/
+lib/
+node_modules/
+.babelrc
+.eslintrs
+.git
+.gitignore
+.jshintrc
+package-lock.json
+yarn.lock

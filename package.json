@@ -10,7 +10,8 @@
     "lint": "eslint lib",
     "patch-release": "npm run build && npm version patch && npm publish && git push --follow-tags",
     "minor-release": "npm run build && npm version minor && npm publish && git push --follow-tags",
-    "major-release": "npm run build && npm version major && npm publish && git push --follow-tags"
+    "major-release": "npm run build && npm version major && npm publish && git push --follow-tags",
+    "preinstall": "babel lib --out-dir ./"
   },
   "main": "./drawer.js",
   "files": [
