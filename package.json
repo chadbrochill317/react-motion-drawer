@@ -1,6 +1,6 @@
 {
   "name": "react-motion-drawer",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "description": "Navigation drawer built with the awesome react-motion and react-hammerjs",
   "scripts": {
     "build": "babel lib --out-dir ./",
@@ -11,7 +11,7 @@
     "patch-release": "npm run build && npm version patch && npm publish && git push --follow-tags",
     "minor-release": "npm run build && npm version minor && npm publish && git push --follow-tags",
     "major-release": "npm run build && npm version major && npm publish && git push --follow-tags",
-    "preinstall": "babel lib --out-dir ./"
+    "prepublish": "babel lib --out-dir ./"
   },
   "main": "./drawer.js",
   "files": [
